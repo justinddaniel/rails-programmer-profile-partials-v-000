@@ -1,8 +1,5 @@
-<% @programmers.each do |programmer| %>
-<%= link_to programmer_path(programmer) do %>
-  <p class="list-group-item programmer-item">
-    <%= image_tag programmer.image, width: '70px' %>
-    <%= programmer.name %>
-  </p>
-  <% end %>
-  <% end %>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-brand">
+    Programmers We L<span class="glyphicon glyphicon-heart"></span>ve
+  </div>
+</nav>
